@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Routes, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'myself';
+
+  constructor(
+    private router: Router
+  ) { }
+  
+  ngOnInit() {
+    console.log(this.router.url)
+  }
+
 }
