@@ -1,6 +1,8 @@
 
 <div *ngIf="openMenu">
-  <div class="menuBox"></div>
+  <div class="menuBox">
+    <app-menulist></app-menulist>
+  </div>
 </div>
 
 <div class="menuButton" (click)="openMenu = !openMenu"></div>

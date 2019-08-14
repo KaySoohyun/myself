@@ -1,24 +1,28 @@
 .menuButton
-  background-image: url("../../assets/casa24.png")
-  width: 24px
-  height: 24px
-  margin-top: 90vh
+  background-image: url("../../assets/casa48.png")
+  background-repeat: no-repeat
+  width: 48px
+  height: 48px
   margin-left: 90vw
+  position: absolute
+  z-index: 5
+  bottom: 1vw
 
 .menuBox
-  background-color: yellow
-  width: 90%
-  height: 100px
+  background-color: #ffc800
+  height: auto
   animation-duration: 1s
   animation-name: slide
-  position: fixed
-
+  position: absolute
+  z-index: 4
+  padding: 3vw
+  bottom: 1vw
+  right: 5vw
+  border-radius: 8px
 
 @keyframes slide
   from
-    margin-left: 100%
-    width: 300%
+    margin-bottom: 50%
 
   to
-    margin-left: 0%
-    width: 100%
+    margin-bottom: 0%

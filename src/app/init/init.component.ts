@@ -8,13 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class InitComponent implements OnInit {
-
-  botones = [
-    {label: "Landing page", route: "/landing"},
-    {label: "Notebook", route: "/notebook"},
-    {label: "Terminal emulator", route: "/term"},
-    {label: "Letter", route: "/letter"}
-  ]
   
   constructor() { }
 

@@ -9,6 +9,7 @@ import { TermComponent } from './term/term.component';
 import { InitComponent } from './init/init.component';
 import { LetterComponent } from './letter/letter.component';
 import { MenuComponent } from './menu/menu.component';
+import { MenulistComponent } from './menulist/menulist.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MenuComponent } from './menu/menu.component';
     TermComponent,
     InitComponent,
     LetterComponent,
-    MenuComponent
+    MenuComponent,
+    MenulistComponent
   ],
   imports: [
     BrowserModule,

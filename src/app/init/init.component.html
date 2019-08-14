@@ -7,9 +7,8 @@
   <h2 class="subtitle">MYSELF:</h2>
   <h1 class="title">KaySoohyun</h1>
 
-  <div *ngFor="let item of botones">
-    <h4 class="buttonInit" routerLink="{{ item.route }}">> {{ item.label }}</h4>
-  </div>
+  <app-menulist></app-menulist>
+  
   </div>
 </div>
 <router-outlet></router-outlet>
