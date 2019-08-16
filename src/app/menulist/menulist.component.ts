@@ -12,7 +12,7 @@ export class MenulistComponent implements OnInit {
     {label: "Landing page", route: "/landing", disable: true},
     {label: "Notebook", route: "/notebook", disable: true},
     {label: "Terminal emulator", route: "/term", disable: true},
-    {label: "Letter", route: "/letter", disable: true}
+    {label: "Letter", route: "/letter", disable: false}
   ]
 
   constructor() { }
