@@ -1,10 +1,11 @@
+import { LandingModule } from './landing/landing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LandingComponent } from './landing/landing.component';
-import { NotebookComponent } from './notebook/notebook.component';
+/* import { LandingComponent } from './landing/landing.component';
+ */import { NotebookComponent } from './notebook/notebook.component';
 import { TermComponent } from './term/term.component';
 import { InitComponent } from './init/init.component';
 import { LetterComponent } from './letter/letter.component';
@@ -14,7 +15,6 @@ import { MenulistComponent } from './menulist/menulist.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent,
     NotebookComponent,
     TermComponent,
     InitComponent,
@@ -24,7 +24,8 @@ import { MenulistComponent } from './menulist/menulist.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LandingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

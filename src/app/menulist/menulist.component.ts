@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MenulistComponent implements OnInit {
 
   botones = [
-    {label: "Landing page", route: "/landing", disable: true},
+    {label: "Landing page", route: "/landing", disable: false},
     {label: "Notebook", route: "/notebook", disable: true},
     {label: "Terminal emulator", route: "/term", disable: true},
     {label: "Letter", route: "/letter", disable: false}

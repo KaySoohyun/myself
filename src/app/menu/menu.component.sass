@@ -4,7 +4,7 @@
   width: 48px
   height: 48px
   margin-left: 90vw
-  position: absolute
+  position: fixed
   z-index: 5
   bottom: 1vw
 
@@ -12,7 +12,7 @@
   background-color: #ffc800
   height: auto
   animation-duration: 1s
-  animation-name: slide
+  animation-name: slideIn
   position: absolute
   z-index: 4
   padding: 3vw
@@ -20,9 +20,10 @@
   right: 5vw
   border-radius: 8px
 
-@keyframes slide
+@keyframes slideIn
   from
     margin-bottom: 50%
 
   to
     margin-bottom: 0%
+    
