@@ -10,6 +10,7 @@ import { InitComponent } from './init/init.component';
 import { LetterComponent } from './letter/letter.component';
 import { MenuComponent } from './menu/menu.component';
 import { MenulistComponent } from './menulist/menulist.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MenulistComponent } from './menulist/menulist.component';
     InitComponent,
     LetterComponent,
     MenuComponent,
-    MenulistComponent
+    MenulistComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

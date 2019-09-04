@@ -5,6 +5,7 @@ import { NotebookComponent } from './notebook/notebook.component';
 import { TermComponent } from './term/term.component';
 import { InitComponent } from './init/init.component';
 import { LetterComponent } from './letter/letter.component';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   { path: '', component: InitComponent },
@@ -12,7 +13,7 @@ const routes: Routes = [
   { path: 'notebook', component: NotebookComponent },
   { path: 'term', component: TermComponent },
   { path: 'letter', component: LetterComponent },
-  /* { path: '**', component: ErrorComponent }, */
+  { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({
